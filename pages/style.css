@@ -1,6 +1,18 @@
-h1,
+h1 {
+    font-family: serif;
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: center;
+    color: rgb(103, 179, 103);
+    background-color: white;
+}
+
+#my-name {
+    font-size: 200%;
+}
+
 p {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: rgb(103, 179, 103);
     background-color: white;
@@ -21,37 +33,41 @@ main {
 }
 
 ul {
-    text-align: center;
+    text-align: right;
     padding-left: 0px;
     list-style: none;
 
+}
+
+footer {
+    text-align: center;
+    padding-left: 0px;
+    list-style: none;
+    font-family: monospace;
+    color: pink
 }
 
 li {
     display: inline;
     margin: len;
     color: MediumSeaGreen;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-footer {
-    text-align: center;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    color: lightpink;
+    font-family: monospace;
 }
 
 .short-bio {
-    padding: 5em;
-    border: 1px solid darkseagreen;
+    padding: 3em;
+    border-top-style: solid;
+    border-top-color: rgb(94, 145, 94);
+    border-top-width: 10px;
+    /* border: 1px solid red; */
     display: flex;
     align-items: center;
 }
 
-#connected {
+.footer-connected {
     font-family: monospace;
     color: mediumseagreen;
+    text-align: center;
 }
 
 a {
